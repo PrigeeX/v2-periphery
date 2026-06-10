@@ -1,8 +1,8 @@
 pragma solidity =0.6.6;
 
-import '@uniswap/v2-core/contracts/interfaces/IPrigeeXV2Pair.sol';
-import '@uniswap/lib/contracts/libraries/Babylonian.sol';
-import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
+import '@prigeex/v2-core/contracts/interfaces/IPrigeeXV2Pair.sol';
+import '@prigeex/lib/contracts/libraries/Babylonian.sol';
+import '@prigeex/lib/contracts/libraries/TransferHelper.sol';
 
 import '../libraries/PrigeeXV2LiquidityMathLibrary.sol';
 import '../interfaces/IERC20.sol';

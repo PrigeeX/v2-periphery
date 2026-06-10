@@ -1,7 +1,7 @@
 pragma solidity =0.6.6;
 
-import '@uniswap/v2-core/contracts/interfaces/IPrigeeXV2Factory.sol';
-import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
+import '@prigeex/v2-core/contracts/interfaces/IPrigeeXV2Factory.sol';
+import '@prigeex/lib/contracts/libraries/TransferHelper.sol';
 
 import './libraries/PrigeeXV2Library.sol';
 import './interfaces/IPrigeeXV2Router01.sol';

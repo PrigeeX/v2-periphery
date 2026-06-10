@@ -1,9 +1,9 @@
 pragma solidity >=0.5.0;
 
-import '@uniswap/v2-core/contracts/interfaces/IPrigeeXV2Pair.sol';
-import '@uniswap/v2-core/contracts/interfaces/IPrigeeXV2Factory.sol';
-import '@uniswap/lib/contracts/libraries/Babylonian.sol';
-import '@uniswap/lib/contracts/libraries/FullMath.sol';
+import '@prigeex/v2-core/contracts/interfaces/IPrigeeXV2Pair.sol';
+import '@prigeex/v2-core/contracts/interfaces/IPrigeeXV2Factory.sol';
+import '@prigeex/lib/contracts/libraries/Babylonian.sol';
+import '@prigeex/lib/contracts/libraries/FullMath.sol';
 
 import './SafeMath.sol';
 import './PrigeeXV2Library.sol';
