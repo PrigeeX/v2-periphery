@@ -21,7 +21,7 @@ library PrigeeXV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'b79d5a3bcb6af6a2050d332c28bf2206cf7e8303bd0a65e33e306206b0a517b4' // init code hash (PrigeeX — post-rename build)
+                hex'2d557b8a56cd48f10c1d90494df17213dc81320e080be4043588aa319e2826a4' // init code hash (PrigeeX — post-rename build)
             ))));
     }
 
